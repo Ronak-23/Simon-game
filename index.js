@@ -25,7 +25,7 @@ function checkanswer(l)
     }else
     {
         var sound2= new Audio("sounds/wrong.mp3")
-        $("#level-title").text("Game Over, Press Any Key to Restart");
+        $("#level-title").text("Game Over, Press the button to Restart");
         $("body").addClass("game-over")
         setTimeout(function(){
             sound2.play()
